@@ -1,0 +1,19 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# SMDButton
+#
+DEF SMDButton BTN 0 40 Y Y 1 F N
+F0 "BTN" 0 150 60 H V C CNN
+F1 "SMDButton" -50 -150 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+P 2 0 1 0 250 0 150 0 N
+P 3 0 1 0 -300 0 -150 0 150 100 N
+X ~ 1 -400 0 100 R 50 50 1 1 I
+X ~ 2 350 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
